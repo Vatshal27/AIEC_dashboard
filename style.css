@@ -1,0 +1,44 @@
+body {
+    font-family: Arial;
+    background: #0f0f1a;
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    padding: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 20px;
+    background: #00ffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: #1f1f2e;
+    padding: 20px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+canvas {
+    background: #ffffff;
+    border-radius: 10px;
+}
